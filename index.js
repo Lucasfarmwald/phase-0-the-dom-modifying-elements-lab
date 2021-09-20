@@ -9,8 +9,8 @@ for (let i = 0; i < 3; i++) {
 
 element.append(ul);
 }
-//function newHeader(){
-  let element = document.createElement("<h1>")
-   element.id = 'victory'
+function newHeader(){
+  const newHeader = document.createElement("h1")
+   newHeader.id = 'victory'
   //main.innerHTML = '<h1> victory </h1>';
 }
